@@ -1,0 +1,46 @@
+.bg-img {
+    background-image: url(bgimage.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+    height: 100vh;
+
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.card {
+    margin-top: 10vh;
+    border-color: #a02075;
+    box-shadow: 1em 1em 1em -1em #bd5d9d;
+}
+
+.row {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    max-width: fit-content;
+}
+
+
+.cell {
+    width: 100px;
+    height: 100px;
+    margin: 5px 3px;
+    background-color: #042a6b;
+    color: #f1faee;
+    font-size: xxx-large;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: white;
+    box-shadow: 1em 1em 1em -1em white;
+
+}
